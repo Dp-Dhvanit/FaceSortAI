@@ -1,0 +1,6 @@
+# FaceSortAI Backend Dependencies
+fastapi
+uvicorn
+opencv-python
+face-recognition
+sqlalchemy

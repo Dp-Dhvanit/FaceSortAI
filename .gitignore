@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+
+# Uploads and processed images
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/processed/with_faces/*
+!backend/processed/with_faces/.gitkeep
+backend/processed/without_faces/*
+!backend/processed/without_faces/.gitkeep
+
+# Models
+models/*
+!models/.gitkeep
